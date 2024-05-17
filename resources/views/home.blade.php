@@ -14,6 +14,12 @@
         <span>Creatore: {{$creator}}</span>
         <br>
         <span>Descrizione: {{$description}}</span>
+        <h5>Personaggi principali:</h5>
+        <ul>
+            @foreach ($personages as $character)
+                <li>{{$character}}</li>
+            @endforeach
+        </ul>
     </div>
 </body>
 </html>

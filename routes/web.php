@@ -18,6 +18,14 @@ Route::get('/', function () {
         'name' => 'Bleach',
         'creator' => 'Tite Kubo',
         'description' => 'Segue le avventure del giovane Ichigo Kurosaki, il quale riceve accidentalmente poteri da shinigami da Rukia Kuchiki.',
+        'personages' => [
+            'Ichigo Kurosaki',
+            'Rukia Kuchiki',
+            'Orihime Inoue',
+            'Uryū Ishida',
+            'Yasutora Sado',
+            'Renji Abarai'
+        ],
     ];
     return view('home', $data);
 });
